@@ -1,0 +1,45 @@
+    1  git clone <URL_вашого_репозиторію>
+    2  git clone <https://github.com/dimusmillion/HW_10.>
+    3  git clone https://github.com/dimusmillion/HW_10.git
+    4  cd HW_10
+    5  [200~
+    6  [200~
+    7  touch text_ignore.txt
+    8  nano .gitignore
+    9  git status
+   10  git add
+   11  git add .
+   12  [200~git commit -m "Add .gitignore and test ignoring file text_ignore.txt"
+   13  git commit -m "Add .gitignore and test ignoring file text_ignore.txt"
+   14  git config --global user.name "Dmitri"
+   15  git config --global user.email "dimusmillion@gmail.com
+   16  git commit -m "Add .gitignore and test ignoring file text_ignore.txt"
+   17  git config --global user.name "Dmitri"
+   18  git config --global user.email "dimusmillion@gmail.com"
+   19  1
+   20  git config --global --list
+   21  git commit -m "Add .gitignore and test ignoring file text_ignore.txt"
+   22  git push origin main
+   23  touch main_test.txt
+   24  git add .
+   25  git commit -m "Add empty file main_test.txt"
+   26  git checkout -b develop
+   27  cd/d/HW_10/HW_10
+   28  cd/d/HW_10
+   29  cd /d/HW_10
+   30  cd /d/HW_10/HW_10
+   31  git status
+   32  git checkout -b develop
+   33  touch develop_test.txt
+   34  git add .
+   35  git commit -m "Add empty file develop_test.txt"
+   36  echo "just a small change" >> develop_test.txt
+   37  git status
+   38  git add develop_test.txt
+   39  git status
+   40  git commit -m "Modify develop_test.txt: just a small change"
+   41  git status
+   42  git checkout main
+   43  git merge develop
+   44  git log --oneline
+   45  history > command_list.csv
